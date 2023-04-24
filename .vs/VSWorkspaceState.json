@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\AboutMe",
-    "\\AboutMe\\images"
+    "\\AboutMe\\images",
+    "\\practice",
+    "\\practice\\styles"
   ],
-  "SelectedNode": "\\AboutMe\\images",
+  "SelectedNode": "\\AboutMe\\index.html",
   "PreviewInSolutionExplorer": false
 }
