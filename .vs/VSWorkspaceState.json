@@ -4,8 +4,11 @@
     "\\AboutMe",
     "\\AboutMe\\images",
     "\\practice",
-    "\\practice\\styles"
+    "\\practice\\styles",
+    "\\wwr",
+    "\\wwr\\images",
+    "\\wwr\\styles"
   ],
-  "SelectedNode": "\\AboutMe\\index.html",
+  "SelectedNode": "\\practice\\byui.html",
   "PreviewInSolutionExplorer": false
 }
