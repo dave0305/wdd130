@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:wght@100&display=swap');
 
 :root {
-    --primary-color: #98CE00D;
+    --primary-color: #98CE00;
     --secondary-color: #16E0BD;
     --accent1-color: #78C3FB;
     --accent2-color: #89A6FB;
@@ -70,27 +70,6 @@ p {
         width: 25%;
         height: 3em;
     }
-
-.primary {
-    background-color: var(--primary-color);
-}
-
-.secondary {
-    background-color: var(--secondary-color);
-}
-
-.accent1 {
-    background-color: var(--accent1-color);
-}
-
-.accent2 {
-    background-color: var(--accent2-color);
-}
-
-p.colored {
-    background-color: var(--paragraph-background-color);
-    color: var(--paragraph-color-on-color);
-}
 
 nav {
     background-color: var(--nav-background-color);
