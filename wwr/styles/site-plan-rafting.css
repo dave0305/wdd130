@@ -1,19 +1,14 @@
 ﻿
-/* if you are using any Google fonts change the font names below to your fonts. 
-Any spaces in your font name should be replaced with a +. 
-Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:wght@100&display=swap');
 
 :root {
-    /* change the values below to your colors from your palette */
-    --primary-color: #4059AD;
-    --secondary-color: #6B9AC4;
-    --accent1-color: #97D8C4;
-    --accent2-color: white;
-    /* change the values below to your chosen font(s) */
+    --primary-color: #98CE00D;
+    --secondary-color: #16E0BD;
+    --accent1-color: #78C3FB;
+    --accent2-color: #89A6FB;
+    --accent3-color: #856F7C;
     --heading-font: "Roboto";
     --paragraph-font: Open Sans, Helvetica, sans-serif;
-    /* these colors below should be chosen from among your palette colors above */
     --headline-color-on-white: #4059AD; /* headlines on a white background */
     --headline-color-on-color: white; /* headlines on a colored background */
     --paragraph-color-on-white: #6B9AC4; /* paragraph text on a white background */
@@ -25,13 +20,11 @@ Fonts are separated by a & */
     --nav-hover-background-color: #97D8C4;
 }
 
-
-/*  Look around below...but DON'T CHANGE ANYTHING! */
-
 body {
+    font-family: var(--paragraph-font);
     max-width: 960px;
     margin: 0 auto;
-    padding: 4em;
+    padding: 20px;
     font-size: 18px;
     text-align: center;
 }
@@ -44,24 +37,12 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--headline-color-on-white);
-}
-
-h2 {
-    text-align: center;
-}
-
-hr {
-    height: 3px;
-    margin: 35px 0;
-    background: var(--accent1-color);
+    color: var(--primary-color);
 }
 
 header {
-    padding: 1em;
-    text-align: center;
-    color: var(--headline-color-on-color);
-    background-color: var(--paragraph-background-color);
+    padding: 20px;
+    background-color: var(--accent1-color);
 }
 
     header > h1, header > h2 {
@@ -71,7 +52,7 @@ header {
 p {
     font-family: var(--paragraph-font);
     color: var(--paragraph-color-on-white);
-    padding: 1em;
+    padding: 25px;
 }
 
 .colors {
@@ -113,21 +94,15 @@ p.colored {
 
 nav {
     background-color: var(--nav-background-color);
-    line-height: 3em;
-    text-align: center;
     font-size: 1.2em;
-}
-
-nav {
-    list-style-type: none;
     display: flex;
 }
 
     nav a {
-        padding: 1em;
-        min-width: 120px;
+        display: block;
+        color: var(--nav-link-color);
         text-decoration: none;
-        padding: 10px;
+        padding: 1rem;
     }
 
         nav a:link, nav a:visited {
