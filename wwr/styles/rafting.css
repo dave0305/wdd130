@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:wght@100&display=swap');
+
+:root {
+    --primary-color: #98CE00;
+    --secondary-color: #16E0BD;
+    --accent1-color: #78C3FB;
+    --accent2-color: #89A6FB;
+    --accent3-color: #856F7C;
+    --heading-font: "Roboto";
+    --paragraph-font: Open Sans, Helvetica, sans-serif;
+    --headline-color-on-white: #4059AD; /* headlines on a white background */
+    --headline-color-on-color: white; /* headlines on a colored background */
+    --paragraph-color-on-white: #6B9AC4; /* paragraph text on a white background */
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */
+    --paragraph-background-color: #97D8C4;
+    --nav-link-color: #4059AD;
+    --nav-background-color: #6B9AC4;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #97D8C4;
+}
+
+.hero {
+    position: relative;
+}
+
+h1, 
+article {
+    position: absolute;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: right;
+}
+
+article {
+    background-color: honeydew;
+}
